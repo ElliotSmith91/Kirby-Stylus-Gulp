@@ -1,0 +1,61 @@
+{
+  "autoPrefixerList" : ["last 15 versions", "> 1%", "ie 8", "ie 7"],
+  "browserSyncProxy": "localhost:8010",
+  "broswerSyncPort": 8080,
+  "phpPort": 8010,
+
+  "paths": {
+    "bower": "./bower_components/",
+    "dev": "./_dev/",
+    "dest": "./_site/",
+
+
+    "assets": {
+      "src": "./_dev/assets/**",
+      "dest": "./_site/assets/**",
+      "fonts": {
+        "src": "./_dev/assets/fonts/**",
+        "dest": "./_site/assets/fonts/**"
+      },
+      "images": {
+        "src": "./_dev/assets/images/",
+        "dest": "./_site/assets/images/"
+      },
+      "styles": {
+        "app": "./_dev/assets/styl/app.styl",
+        "src": "./_dev/assets/styl/**/*.styl",
+        "dest": "./_site/assets/css/"
+      },
+      "scripts": {
+        "src": "./_dev/assets/js/common/*.js",
+        "dest": "./_site/assets/js/"
+      }
+    },
+
+    "site": {
+      "src": "./_dev/site/**",
+      "dest": "./_site/site/**",
+      "blueprints": {
+        "src": "./_dev/site/blueprints/**",
+        "dest": "./_site/site/blueprints/**"
+      },
+      "controllers": {
+        "src": "./_dev/site/controllers/**",
+        "dest": "./_site/site/controllers/**"
+      },
+      "snippets": {
+        "src": "./_dev/site/snippets/**",
+        "dest": "./_site/site/snippets/**"
+      },
+      "templates": {
+        "src": "./_dev/site/snippets/**",
+        "dest": "./_site/site/snippets/**"
+      }
+    },
+
+    "content": {
+      "src": "./_dev/content/**",
+      "dest": "./_site/content/**/**"
+    }
+  }
+}

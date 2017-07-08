@@ -1,0 +1,43 @@
+{
+  "name": "stylus-jeet-browserSync-phpConnect",
+  "version": "0.1.0",
+  "description": "A basic front-end development package using gulp that I use for to helping make sites with Kirby CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gulp",
+    "Stylus",
+    "Jeet",
+    "Browser Sync",
+    "Kirby CMS"
+  ],
+  "author": "Elliot Smith",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "0.0.8",
+    "gulp-file": "^0.3.0",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.7",
+    "jeet": "^7.1.0",
+    "kouto-swiss": "^0.13.1",
+    "merge-stream": "^1.0.1",
+    "nib": "^1.1.2",
+    "rupture": "^0.6.2",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {}
+}
